@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+.first{
+    justify-content: center;
+    text-align: center;
+}
+h1,h2 {
+    color:blue
+    
+}
+.navbar{
+    margin-top:auto;
+    background-color: rgb(125, 88, 88);
+    border-radius: 5px;
+}
+.navbar ul{
+    overflow: hidden;
+}
+.navbar li{
+    float:left;
+     list-style:none;
+    margin:10px 20px;
+    padding:4px;
+    border:2px solid black;
+    border-bottom: 3px;
+   
+}
+.navbar li a {
+    font-style: oblique;
+    font-family:sans-serif;
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+     transition: 0.9s;
+}
+.navbar li a:hover {
+    
+    color: blue;
+    background-color: white;
+}
+
+.footer{
+    position:fixed;
+    background-color: rgb(125, 88, 88);
+    width: 100%;
+    min-height: 70px;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+footer .social_icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+footer .social_icon li{
+    list-style-type: none;
+}
+footer .social_icon li a{
+    font-size: 2em;
+   color:aliceblue;
+   margin: 0 10px;
+   display: inline-block;
+   transition: 0.5s;
+}
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
+    
+
+.search{
+    float: right;
+    padding:12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    padding:3px 9px;
+} 
+
+    </style>
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Help.html">Help</a></li>
+            <div class="search">
+                <input type="text" name="search" placeholder="Search here"/>
+            </div>
+        </ul>
+    </nav>
+</header>
+    <div class="first">
+        <center>
+        <hr size="5" noshade color="rgb(125, 88, 88)">
+        <table cellspacing="3">
+    <h1>Tahseenullah Ihsan</h1>
+    <img src="IMG_8044.png" alt="profile image"/>
+    <h2>Web Development <i>cohort 5</i></h2>
+</table>
+    <caption>Institute Of Emerging Carier <em>IEC</em></caption><a href="#"><ion-icon name="heart"></ion-icon></a>
+    <hr size="5" noshade color="rgb(125, 88, 88)">
+</center>
+</div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+<footer class="footer">
+    <ul class="social_icon">
+        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="logo-snapchat"></ion-icon></a></li>
+        
+    </ul>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
